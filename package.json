@@ -1,0 +1,17 @@
+{
+  "name": "embryon",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": true,
+  "plugin": {
+    "consumes": [],
+    "provides": [
+      "nuc"
+    ]
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "prompt": "^0.2.14",
+    "rx": "^3.1.0"
+  }
+}
