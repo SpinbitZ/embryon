@@ -1,5 +1,5 @@
 'use strict';
-var Rx = require(rxjs);
+var Rx = require('rxjs');
 
 /**
  * Returns a new observable composed of the number of duplicates of the source.

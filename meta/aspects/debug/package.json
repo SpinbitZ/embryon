@@ -1,0 +1,12 @@
+{
+  "name": "debug",
+  "version": "0.0.1",
+  "main": "debug.js",
+  "private": true,
+  "plugin": {
+    "consumes": [],
+    "provides": [
+      "debug"
+    ]
+  }
+}

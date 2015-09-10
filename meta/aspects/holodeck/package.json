@@ -1,0 +1,30 @@
+{
+  "name": "holodeck",
+  "version": "0.0.1",
+  "description": "Fork of Azimi's better-console as a a holos aspect",
+  "main": "holodeck.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "console"
+  ],
+  "author": "Joel D. Morrison",
+  "license": "BSD",
+  "dependencies": {
+    "colors": "~0.6.0-1",
+    "cli-table": "~0.2.0"
+  },
+  "private": true,
+  "plugin": {
+    "consumes": [],
+    "provides": [
+      "holodeck",
+      "original_console"
+    ]
+  }
+}
