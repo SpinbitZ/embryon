@@ -5,7 +5,7 @@
  * As input, ItemsIntent.
  */
 var Rx = require('rx');
-var channel = require('../../meta/channel');
+var channel = require('../../meta/ops/channel');
 
 var subject = new Rx.Subject();
 //var intentRemoveItem$ = new Rx.Subject();
