@@ -1,5 +1,5 @@
 'use strict';
-var tri = require('./organs/tricycle');
+var tri = require('./cycles/triad');
 var renderer = require('./utils/renderer');
 var ItemsModel = require('./models/items');
 var ShellView = require('./views/shell_view');
